@@ -19,7 +19,7 @@
     </changeSet>
 
     <changeSet id="2"  author="test">  
-        <createTable  tableName="person">  
+        <createTable  tableName="person" schemaName="spring_demo">  
             <column  name="id"  type="int"  autoIncrement="true">
                 <constraints  primaryKey="true"  nullable="false"/>  
             </column>  
